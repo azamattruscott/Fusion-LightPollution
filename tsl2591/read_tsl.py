@@ -9,7 +9,7 @@ datasheet:
 http://ams.com/eng/Products/Light-Sensors/Light-to-Digital-Sensors/TSL25911
 
 '''
-import smbus
+import smbus #Comment
 import time
 
 VISIBLE = 2  # channel 0 - channel 1
