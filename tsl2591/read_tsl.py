@@ -196,7 +196,7 @@ if __name__ == '__main__':
         print ('Lux = %f  full = %i  ir = %i' % (lux_test, full_test, ir_test))
         print("integration time = %i" % tsl.get_timing())
         print("gain = %i \n" % tsl.get_gain())        
-
+while True:
     for i in [INTEGRATIONTIME_100MS,
               INTEGRATIONTIME_200MS,
               INTEGRATIONTIME_300MS,
